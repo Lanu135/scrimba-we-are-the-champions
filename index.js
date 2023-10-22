@@ -1,3 +1,4 @@
+// Setup for Firebase Database
 import {initializeApp} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
 import {getDatabase, ref} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
@@ -8,3 +9,10 @@ const appSettings = {
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
 const endorsementInDatabase = ref(database, "endorsement")
+
+// Variables to catch up Elements easier
+const endorsementEl = document.getElementById("endorsement-el")
+const fromEl = document.getElementById("from-el")
+const toEl = document.getElementById("to-el")
+const publishBtn = document.getElementById("publish-btn")
+const endorsementList = document.getElementById("endorsement-list")
