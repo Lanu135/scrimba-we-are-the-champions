@@ -42,7 +42,7 @@ img {
   justify-content: space-between;
 }
 
-input {
+/* input {
   border-radius: 8px;
   border: none;
   background: #444059;
@@ -50,7 +50,7 @@ input {
   width: 121px;
   font-family: 'Inter', sans-serif;
   color: #FFF;
-}
+} */
 
 textarea {
   border-radius: 8px;
@@ -81,7 +81,7 @@ button {
 ul {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   gap: 13px;
   font-family: 'Inter', sans-serif;
   padding: 0;
@@ -93,6 +93,7 @@ ul li {
   padding: 13px 15px;
   margin: 0 auto;
   font-size: 12px;
+  width: 100%;
 }
 
 #bold {
