@@ -3,6 +3,7 @@ import {initializeApp} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-
 import {getDatabase, ref, push, onValue} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 const appSettings = {
+  // using secret for Firebase URL see Repositry settings
   databaseURL: FIREBASEURL
 }
 
@@ -18,7 +19,7 @@ const publishBtn = document.getElementById("publish-btn")
 const commentListEl = document.getElementById("comment-list")
 
 
-// pushs value of commentEl to Firebase and clears the commentEl
+// pushs value of inputs to Firebase and clears the inputs
 publishBtn.addEventListener("click", function() {
   const commentValue = {
     from: fromEl.value,
