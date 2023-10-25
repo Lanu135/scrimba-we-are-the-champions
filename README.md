@@ -2,7 +2,7 @@
 
 <a target="_blank" href="https://scrimba.com">Scrimba.com</a> Solo Project from Module #3 (Making websites interactive) of the Frontend Career Path
 
-<a target="_blank" href="https://lanu135.github.io/scrimba-we-are-the-champions/">Deployed Website</a>
+<a href="https://lanu135.github.io/scrimba-we-are-the-champions/" target="_blank">Deployed Website</a>
 
 The requirments were the following
 
