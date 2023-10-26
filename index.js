@@ -26,9 +26,14 @@ publishBtn.addEventListener("click", function() {
     comment: commentEl.value,
     to: toEl.value
   }
-
-  push(commentInDatabase, commentValue)
+  if (commentValue.from === "" || commentValue.to === "" || commentValue.from === "") {
+    window.alert("Please enter a comment and names, thank you :)")
+  } else {
+    push(commentInDatabase, commentValue)
   clearInputFields()
+  }
+
+  
 })
 
 onValue(commentInDatabase, function(snapchat) {
